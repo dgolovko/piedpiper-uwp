@@ -26,5 +26,14 @@ namespace PiedPiper
         {
             this.InitializeComponent();
         }
+
+        private async void button_Click(object sender, RoutedEventArgs e)
+        {
+            MediaElement boomButton = new MediaElement();
+            var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
+            Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync("Haduken!");
+            boomButton.SetSource(stream, stream.ContentType);
+            boomButton.Play();
+        }
     }
 }
