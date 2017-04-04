@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:Name="button" Content="Boom" HorizontalAlignment="Left" Margin="151,303,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.556,1.262" Click="button_Click"/>
+        <Button x:Name="button" Content="What is PiedPiper?" HorizontalAlignment="Left" Margin="109,302,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.556,1.262" Click="button_Click"/>
 
     </Grid>
 </Page>

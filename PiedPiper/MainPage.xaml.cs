@@ -31,7 +31,7 @@ namespace PiedPiper
         {
             MediaElement boomButton = new MediaElement();
             var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
-            Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync("Haduken!");
+            Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync("Pied Piper is a middle-out compression solution, making data storage problems smaller.");
             boomButton.SetSource(stream, stream.ContentType);
             boomButton.Play();
         }
