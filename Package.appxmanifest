@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="36111derpixeldan.PiedPiper" Publisher="CN=AD54F98A-973A-4B29-BD48-BDA7DD65F95F" Version="1.1.1.0" />
+  <Identity Name="36111derpixeldan.PiedPiper" Publisher="CN=AD54F98A-973A-4B29-BD48-BDA7DD65F95F" Version="1.1.2.0" />
   <mp:PhoneIdentity PhoneProductId="4e695c6e-7f6a-471c-abde-e61810f6bb1a" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>PiedPiper</DisplayName>
